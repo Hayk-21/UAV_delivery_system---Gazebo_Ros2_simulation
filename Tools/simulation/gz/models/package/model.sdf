@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.9">
+  <!-- Hanging cargo: origin at the attachment point (top of rope).
+       The whole model is rotated by the dashboard's pendulum simulation
+       to create realistic swinging. -->
+  <model name="package">
+    <static>true</static>
+
+    <!-- Hook (attachment point at model origin) -->
+    <link name="hook">
+      <visual name="visual">
+        <geometry><cylinder><radius>0.008</radius><length>0.015</length></cylinder></geometry>
+        <material>
+          <ambient>0.25 0.25 0.25 1</ambient>
+          <diffuse>0.30 0.30 0.30 1</diffuse>
+          <specular>0.4 0.4 0.4 1</specular>
+        </material>
+      </visual>
+    </link>
+
+    <!-- Rope / yarn (thin cylinder hanging down from hook) -->
+    <link name="rope">
+      <pose>0 0 -0.18 0 0 0</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.003</radius><length>0.34</length></cylinder></geometry>
+        <material>
+          <ambient>0.85 0.82 0.72 1</ambient>
+          <diffuse>0.85 0.82 0.72 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <!-- Grip plate (junction between rope and box) -->
+    <link name="grip">
+      <pose>0 0 -0.355 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.10 0.10 0.008</size></box></geometry>
+        <material>
+          <ambient>0.15 0.15 0.15 1</ambient>
+          <diffuse>0.20 0.20 0.20 1</diffuse>
+          <specular>0.3 0.3 0.3 1</specular>
+        </material>
+      </visual>
+    </link>
+
+    <!-- Main cardboard box -->
+    <link name="box">
+      <pose>0 0 -0.42 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.18 0.18 0.12</size></box></geometry>
+        <material>
+          <ambient>0.76 0.53 0.26 1</ambient>
+          <diffuse>0.76 0.53 0.26 1</diffuse>
+          <specular>0.1 0.1 0.05 1</specular>
+        </material>
+      </visual>
+    </link>
+
+    <!-- Tape stripe (lengthwise) -->
+    <link name="tape_top">
+      <pose>0 0 -0.359 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.19 0.04 0.003</size></box></geometry>
+        <material>
+          <ambient>0.22 0.16 0.08 1</ambient>
+          <diffuse>0.22 0.16 0.08 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <!-- Tape stripe (widthwise) -->
+    <link name="tape_cross">
+      <pose>0 0 -0.359 0 0 1.5708</pose>
+      <visual name="visual">
+        <geometry><box><size>0.19 0.04 0.003</size></box></geometry>
+        <material>
+          <ambient>0.22 0.16 0.08 1</ambient>
+          <diffuse>0.22 0.16 0.08 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

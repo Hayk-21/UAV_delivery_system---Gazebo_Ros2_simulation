@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version='1.9'>
+  <model name='x500_cargo'>
+
+    <!-- Merge full x500 (which itself merges x500_base) -->
+    <include merge='true'>
+      <uri>model://x500</uri>
+    </include>
+
+    <!-- Cargo payload – package with grip plate, rigidly attached to base_link -->
+    <link name="cargo_payload">
+      <pose relative_to="base_link">0 0 -0.09 0 0 0</pose>
+      <inertial>
+        <mass>0.005</mass>
+        <inertia>
+          <ixx>0.00001</ixx>
+          <iyy>0.00001</iyy>
+          <izz>0.00001</izz>
+        </inertia>
+      </inertial>
+
+      <!-- Grip plate (dark mount on top of box) -->
+      <visual name="grip_plate">
+        <pose>0 0 0.065 0 0 0</pose>
+        <geometry><box><size>0.10 0.10 0.008</size></box></geometry>
+        <material>
+          <ambient>0.15 0.15 0.15 1</ambient>
+          <diffuse>0.20 0.20 0.20 1</diffuse>
+          <specular>0.3 0.3 0.3 1</specular>
+        </material>
+      </visual>
+
+      <!-- Grip pin -->
+      <visual name="grip_pin">
+        <pose>0 0 0.075 0 0 0</pose>
+        <geometry><cylinder><radius>0.012</radius><length>0.015</length></cylinder></geometry>
+        <material>
+          <ambient>0.2 0.2 0.2 1</ambient>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Main cardboard box -->
+      <visual name="box">
+        <geometry><box><size>0.18 0.18 0.12</size></box></geometry>
+        <material>
+          <ambient>0.76 0.53 0.26 1</ambient>
+          <diffuse>0.76 0.53 0.26 1</diffuse>
+          <specular>0.1 0.1 0.05 1</specular>
+        </material>
+      </visual>
+
+      <!-- Tape stripe (lengthwise) -->
+      <visual name="tape_top">
+        <pose>0 0 0.061 0 0 0</pose>
+        <geometry><box><size>0.19 0.04 0.003</size></box></geometry>
+        <material>
+          <ambient>0.22 0.16 0.08 1</ambient>
+          <diffuse>0.22 0.16 0.08 1</diffuse>
+        </material>
+      </visual>
+
+      <!-- Tape stripe (widthwise) -->
+      <visual name="tape_cross">
+        <pose>0 0 0.061 0 0 1.5708</pose>
+        <geometry><box><size>0.19 0.04 0.003</size></box></geometry>
+        <material>
+          <ambient>0.22 0.16 0.08 1</ambient>
+          <diffuse>0.22 0.16 0.08 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <joint name="cargo_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>cargo_payload</child>
+    </joint>
+
+  </model>
+</sdf>

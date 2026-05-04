@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.9">
+  <world name="city">
+
+    <physics type="ode">
+      <max_step_size>0.01</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>100</real_time_update_rate>
+    </physics>
+
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type="adiabatic"/>
+
+    <scene>
+      <grid>false</grid>
+      <ambient>0.5 0.5 0.5 1</ambient>
+      <background>0.53 0.68 0.87 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>1 1</size></plane></geometry>
+          <surface><friction><ode/></friction><bounce/><contact/></surface>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>2000 2000</size></plane></geometry>
+          <material>
+            <ambient>0.72 0.72 0.70 1</ambient>
+            <diffuse>0.72 0.72 0.70 1</diffuse>
+            <specular>0.08 0.08 0.08 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose><mass>1</mass>
+          <inertia><ixx>1</ixx><ixy>0</ixy><ixz>0</ixz>
+                   <iyy>1</iyy><iyz>0</iyz><izz>1</izz></inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+    </model>
+
+    <light name="sunUTC" type="directional">
+      <pose>0 0 500 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>0.001 0.625 -0.78</direction>
+      <diffuse>0.904 0.904 0.904 1</diffuse>
+      <specular>0.271 0.271 0.271 1</specular>
+      <attenuation>
+        <range>2000</range><linear>0</linear>
+        <constant>1</constant><quadratic>0</quadratic>
+      </attenuation>
+    </light>
+
+    <include>
+      <uri>model://city_buildings</uri>
+    </include>
+
+    <include>
+      <uri>model://x500</uri>
+      <name>x500_1</name>
+      <pose>3 -3 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://x500</uri>
+      <name>x500_2</name>
+      <pose>-3 -3 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://x500</uri>
+      <name>x500_3</name>
+      <pose>0 4 0 0 0 0</pose>
+    </include>
+
+    <!-- Battery Replacement Stations -->
+    <include>
+      <uri>model://brs_station</uri>
+      <name>brs_alpha</name>
+      <pose>0 150 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://brs_station</uri>
+      <name>brs_bravo</name>
+      <pose>-130 -30 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://brs_station</uri>
+      <name>brs_charlie</name>
+      <pose>160 -130 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://brs_station</uri>
+      <name>brs_delta</name>
+      <pose>-60 250 0 0 0 0</pose>
+    </include>
+
+    <!-- Storage Buildings -->
+    <include>
+      <uri>model://storage_building</uri>
+      <name>storage_a</name>
+      <pose>30 140 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://storage_building</uri>
+      <name>storage_b</name>
+      <pose>-100 120 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://storage_building</uri>
+      <name>storage_c</name>
+      <pose>140 -80 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://storage_building</uri>
+      <name>storage_d</name>
+      <pose>-150 -120 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://storage_building</uri>
+      <name>storage_e</name>
+      <pose>-40 200 0 0 0 0</pose>
+    </include>
+
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <world_frame_orientation>ENU</world_frame_orientation>
+      <latitude_deg>47.397971057728974</latitude_deg>
+      <longitude_deg>8.546163739800146</longitude_deg>
+      <elevation>0</elevation>
+    </spherical_coordinates>
+
+  </world>
+</sdf>

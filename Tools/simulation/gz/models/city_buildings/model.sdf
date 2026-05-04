@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.9">
+  <model name="city_buildings">
+    <static>true</static>
+
+      <model name="b1"><static>true</static><pose>-67.2 -209.9 36.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 16 72</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 16 72</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b2"><static>true</static><pose>160.3 21.6 30.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>31 12 62</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>31 12 62</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b3"><static>true</static><pose>-54.9 79.3 21.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>17 33 43</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>17 33 43</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b4"><static>true</static><pose>253.0 -201.2 28.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 14 58</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 14 58</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b5"><static>true</static><pose>312.8 20.1 22.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>33 22 45</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>33 22 45</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b6"><static>true</static><pose>40.6 -52.4 10.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>21 33 21</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>21 33 21</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b7"><static>true</static><pose>73.9 333.7 42.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>21 15 84</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>21 15 84</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b8"><static>true</static><pose>173.3 -40.8 26.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>38 14 53</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>38 14 53</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b9"><static>true</static><pose>-324.1 -333.7 10.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 30 21</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 30 21</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b10"><static>true</static><pose>92.4 -250.0 12.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>29 20 25</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>29 20 25</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b11"><static>true</static><pose>-209.4 201.1 17.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>12 15 34</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>12 15 34</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b12"><static>true</static><pose>227.6 -261.6 9.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>38 22 19</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>38 22 19</size></box></geometry>
+            <material><ambient>0.48 0.52 0.60 1</ambient><diffuse>0.48 0.52 0.60 1</diffuse><specular>0.50 0.52 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b13"><static>true</static><pose>75.6 -64.2 14.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 14 28</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 14 28</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b14"><static>true</static><pose>-63.1 296.9 26.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>36 18 52</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>36 18 52</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+      <model name="b15"><static>true</static><pose>-299.3 -148.6 15.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 11 31</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 11 31</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b16"><static>true</static><pose>-114.3 218.7 27.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>22 30 55</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>22 30 55</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b17"><static>true</static><pose>265.7 296.1 24.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>32 20 48</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>32 20 48</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b18"><static>true</static><pose>131.5 -130.2 34.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>33 28 68</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>33 28 68</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b19"><static>true</static><pose>-142.5 176.1 43.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>12 21 87</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>12 21 87</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b20"><static>true</static><pose>-16.0 -260.9 18.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>37 21 37</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>37 21 37</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b21"><static>true</static><pose>-152.4 124.8 32.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 35 65</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 35 65</size></box></geometry>
+            <material><ambient>0.58 0.52 0.45 1</ambient><diffuse>0.58 0.52 0.45 1</diffuse><specular>0.14 0.12 0.10 1</specular></material></visual>
+        </link></model>
+      <model name="b22"><static>true</static><pose>-213.9 -114.2 20.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>16 10 42</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>16 10 42</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b23"><static>true</static><pose>325.3 -214.7 31.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>30 14 63</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>30 14 63</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b24"><static>true</static><pose>170.1 256.4 20.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>17 32 41</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>17 32 41</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b25"><static>true</static><pose>-347.5 1.2 43.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>16 23 86</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>16 23 86</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b26"><static>true</static><pose>7.8 214.1 39.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>38 17 79</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>38 17 79</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b27"><static>true</static><pose>-22.4 21.7 36.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>29 26 72</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>29 26 72</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b28"><static>true</static><pose>-209.8 -335.6 29.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 18 59</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 18 59</size></box></geometry>
+            <material><ambient>0.78 0.68 0.52 1</ambient><diffuse>0.78 0.68 0.52 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b29"><static>true</static><pose>-58.3 -91.5 29.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 34 59</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 34 59</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b30"><static>true</static><pose>-214.2 -279.9 37.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>36 20 74</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>36 20 74</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b31"><static>true</static><pose>245.2 141.3 14.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>23 34 28</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>23 34 28</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b32"><static>true</static><pose>-204.7 -25.8 14.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>35 27 29</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>35 27 29</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b33"><static>true</static><pose>51.0 88.1 44.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>37 27 89</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>37 27 89</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+      <model name="b34"><static>true</static><pose>348.0 16.2 10.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 30 20</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 30 20</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b35"><static>true</static><pose>48.7 23.1 23.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>29 25 46</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>29 25 46</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b36"><static>true</static><pose>-254.7 294.0 26.7 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>22 11 53</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>22 11 53</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b37"><static>true</static><pose>-94.4 41.8 33.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>16 24 68</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>16 24 68</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b38"><static>true</static><pose>170.4 -270.5 27.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>14 13 56</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>14 13 56</size></box></geometry>
+            <material><ambient>0.78 0.68 0.52 1</ambient><diffuse>0.78 0.68 0.52 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b39"><static>true</static><pose>181.4 102.6 34.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 32 69</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 32 69</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b40"><static>true</static><pose>-111.9 -313.0 14.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>20 26 29</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>20 26 29</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b41"><static>true</static><pose>197.9 342.9 30.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 28 60</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 28 60</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b42"><static>true</static><pose>263.5 -237.0 24.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>37 14 48</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>37 14 48</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b43"><static>true</static><pose>-143.0 -263.5 20.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>23 12 42</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>23 12 42</size></box></geometry>
+            <material><ambient>0.46 0.50 0.62 1</ambient><diffuse>0.46 0.50 0.62 1</diffuse><specular>0.48 0.50 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b44"><static>true</static><pose>-86.3 -160.5 32.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>17 14 66</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>17 14 66</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b45"><static>true</static><pose>-228.1 -65.6 17.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>12 16 34</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>12 16 34</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b46"><static>true</static><pose>-171.8 55.8 31.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>23 10 63</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>23 10 63</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b47"><static>true</static><pose>305.9 333.7 20.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>12 25 41</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>12 25 41</size></box></geometry>
+            <material><ambient>0.48 0.52 0.60 1</ambient><diffuse>0.48 0.52 0.60 1</diffuse><specular>0.50 0.52 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b48"><static>true</static><pose>-15.3 78.6 35.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>21 14 70</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>21 14 70</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b49"><static>true</static><pose>-204.1 248.3 37.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>23 15 75</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>23 15 75</size></box></geometry>
+            <material><ambient>0.48 0.52 0.60 1</ambient><diffuse>0.48 0.52 0.60 1</diffuse><specular>0.50 0.52 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b50"><static>true</static><pose>-17.2 278.2 13.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 27 28</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 27 28</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b51"><static>true</static><pose>-185.7 17.1 27.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>31 21 54</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>31 21 54</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b52"><static>true</static><pose>-180.9 -123.2 11.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 22 22</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 22 22</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b53"><static>true</static><pose>310.3 -44.3 32.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>19 33 65</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>19 33 65</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b54"><static>true</static><pose>-162.2 296.2 18.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 24 37</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 24 37</size></box></geometry>
+            <material><ambient>0.70 0.64 0.52 1</ambient><diffuse>0.70 0.64 0.52 1</diffuse><specular>0.13 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b55"><static>true</static><pose>-270.1 -108.8 17.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>14 18 35</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>14 18 35</size></box></geometry>
+            <material><ambient>0.58 0.52 0.45 1</ambient><diffuse>0.58 0.52 0.45 1</diffuse><specular>0.14 0.12 0.10 1</specular></material></visual>
+        </link></model>
+      <model name="b56"><static>true</static><pose>-311.0 320.8 10.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>21 14 21</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>21 14 21</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b57"><static>true</static><pose>-242.6 -298.2 20.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>11 15 41</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>11 15 41</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b58"><static>true</static><pose>182.4 -300.7 23.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>10 13 48</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>10 13 48</size></box></geometry>
+            <material><ambient>0.70 0.64 0.52 1</ambient><diffuse>0.70 0.64 0.52 1</diffuse><specular>0.13 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b59"><static>true</static><pose>21.8 -304.9 30.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>11 17 62</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>11 17 62</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b60"><static>true</static><pose>263.4 84.9 24.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>17 21 48</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>17 21 48</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b61"><static>true</static><pose>71.3 -166.7 8.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>33 13 16</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>33 13 16</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b62"><static>true</static><pose>300.6 -125.4 27.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>40 25 55</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>40 25 55</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b63"><static>true</static><pose>137.6 -316.7 22.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 13 46</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 13 46</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b64"><static>true</static><pose>268.2 110.4 37.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 10 75</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 10 75</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b65"><static>true</static><pose>-207.4 98.1 38.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 35 77</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 35 77</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b66"><static>true</static><pose>-221.8 -255.6 14.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>33 17 28</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>33 17 28</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b67"><static>true</static><pose>-276.7 239.3 11.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>33 20 22</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>33 20 22</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b68"><static>true</static><pose>177.1 159.3 10.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>11 25 20</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>11 25 20</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b69"><static>true</static><pose>-76.2 271.9 44.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 15 90</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 15 90</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b70"><static>true</static><pose>229.9 -173.4 18.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 15 36</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 15 36</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b71"><static>true</static><pose>71.3 -300.6 29.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 30 58</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 30 58</size></box></geometry>
+            <material><ambient>0.46 0.50 0.62 1</ambient><diffuse>0.46 0.50 0.62 1</diffuse><specular>0.48 0.50 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b72"><static>true</static><pose>-54.5 -52.0 40.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 10 80</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 10 80</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b73"><static>true</static><pose>193.7 -140.9 34.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 28 68</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 28 68</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b74"><static>true</static><pose>-123.5 326.0 26.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>17 20 53</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>17 20 53</size></box></geometry>
+            <material><ambient>0.58 0.52 0.45 1</ambient><diffuse>0.58 0.52 0.45 1</diffuse><specular>0.14 0.12 0.10 1</specular></material></visual>
+        </link></model>
+      <model name="b75"><static>true</static><pose>310.3 289.8 31.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>36 30 62</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>36 30 62</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b76"><static>true</static><pose>152.9 322.4 34.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 24 70</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 24 70</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b77"><static>true</static><pose>-335.6 74.1 9.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>20 13 18</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>20 13 18</size></box></geometry>
+            <material><ambient>0.46 0.50 0.62 1</ambient><diffuse>0.46 0.50 0.62 1</diffuse><specular>0.48 0.50 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b78"><static>true</static><pose>-239.7 -227.1 40.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 20 80</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 20 80</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b79"><static>true</static><pose>-89.2 99.1 41.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>38 16 84</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>38 16 84</size></box></geometry>
+            <material><ambient>0.70 0.64 0.52 1</ambient><diffuse>0.70 0.64 0.52 1</diffuse><specular>0.13 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b80"><static>true</static><pose>-255.8 -166.8 22.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 10 44</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 10 44</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+      <model name="b81"><static>true</static><pose>250.0 -331.1 16.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>25 17 34</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>25 17 34</size></box></geometry>
+            <material><ambient>0.48 0.52 0.60 1</ambient><diffuse>0.48 0.52 0.60 1</diffuse><specular>0.50 0.52 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b82"><static>true</static><pose>-164.4 -46.1 20.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>22 31 41</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>22 31 41</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b83"><static>true</static><pose>152.8 -198.4 44.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>11 16 89</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>11 16 89</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b84"><static>true</static><pose>-29.7 234.0 38.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>11 31 76</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>11 31 76</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b85"><static>true</static><pose>-90.0 181.8 20.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>33 17 41</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>33 17 41</size></box></geometry>
+            <material><ambient>0.48 0.52 0.60 1</ambient><diffuse>0.48 0.52 0.60 1</diffuse><specular>0.50 0.52 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b86"><static>true</static><pose>25.4 -209.4 14.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>22 27 28</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>22 27 28</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b87"><static>true</static><pose>-15.0 -294.4 17.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>31 28 35</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>31 28 35</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b88"><static>true</static><pose>-174.9 -229.0 39.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>30 34 78</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>30 34 78</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b89"><static>true</static><pose>-241.0 -25.4 31.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 31 62</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 31 62</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b90"><static>true</static><pose>-53.5 -128.6 10.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>39 28 22</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>39 28 22</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+      <model name="b91"><static>true</static><pose>206.3 -79.3 43.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>39 28 87</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>39 28 87</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+      <model name="b92"><static>true</static><pose>-111.2 -220.8 25.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>32 12 50</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>32 12 50</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b93"><static>true</static><pose>160.4 -166.7 14.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>20 10 29</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>20 10 29</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b94"><static>true</static><pose>-37.3 -25.2 42.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 11 84</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 11 84</size></box></geometry>
+            <material><ambient>0.58 0.52 0.45 1</ambient><diffuse>0.58 0.52 0.45 1</diffuse><specular>0.14 0.12 0.10 1</specular></material></visual>
+        </link></model>
+      <model name="b95"><static>true</static><pose>312.6 229.8 36.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>32 13 74</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>32 13 74</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b96"><static>true</static><pose>-261.6 171.3 36.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>14 16 73</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>14 16 73</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b97"><static>true</static><pose>-322.7 -196.2 26.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 15 54</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 15 54</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b98"><static>true</static><pose>-221.3 -165.0 41.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>21 19 84</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>21 19 84</size></box></geometry>
+            <material><ambient>0.46 0.50 0.62 1</ambient><diffuse>0.46 0.50 0.62 1</diffuse><specular>0.48 0.50 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b99"><static>true</static><pose>-179.3 -337.8 43.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 14 87</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 14 87</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b100"><static>true</static><pose>236.5 -111.9 32.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>31 22 64</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>31 22 64</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b101"><static>true</static><pose>103.8 -339.8 10.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>11 23 22</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>11 23 22</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b102"><static>true</static><pose>336.7 -330.2 21.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>23 33 43</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>23 33 43</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b103"><static>true</static><pose>234.6 323.0 10.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>12 27 20</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>12 27 20</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b104"><static>true</static><pose>126.6 -272.0 15.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>22 18 32</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>22 18 32</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+      <model name="b105"><static>true</static><pose>-312.4 -257.1 13.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 24 28</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 24 28</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b106"><static>true</static><pose>119.0 109.5 20.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 18 42</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 18 42</size></box></geometry>
+            <material><ambient>0.48 0.52 0.60 1</ambient><diffuse>0.48 0.52 0.60 1</diffuse><specular>0.50 0.52 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b107"><static>true</static><pose>-129.5 -182.6 11.7 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>17 21 23</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>17 21 23</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b108"><static>true</static><pose>215.1 -226.8 19.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>29 27 39</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>29 27 39</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b109"><static>true</static><pose>272.1 -153.0 20.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>11 15 40</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>11 15 40</size></box></geometry>
+            <material><ambient>0.58 0.52 0.45 1</ambient><diffuse>0.58 0.52 0.45 1</diffuse><specular>0.14 0.12 0.10 1</specular></material></visual>
+        </link></model>
+      <model name="b110"><static>true</static><pose>-227.7 342.4 8.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 31 16</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 31 16</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b111"><static>true</static><pose>-336.7 252.2 21.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 32 43</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 32 43</size></box></geometry>
+            <material><ambient>0.70 0.64 0.52 1</ambient><diffuse>0.70 0.64 0.52 1</diffuse><specular>0.13 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b112"><static>true</static><pose>106.3 78.6 23.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 31 46</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 31 46</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b113"><static>true</static><pose>81.9 124.8 29.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 17 58</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 17 58</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b114"><static>true</static><pose>26.1 303.7 37.2 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>33 29 74</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>33 29 74</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b115"><static>true</static><pose>265.2 -302.2 30.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>37 12 60</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>37 12 60</size></box></geometry>
+            <material><ambient>0.48 0.52 0.60 1</ambient><diffuse>0.48 0.52 0.60 1</diffuse><specular>0.50 0.52 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b116"><static>true</static><pose>65.1 162.1 25.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 24 51</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 24 51</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b117"><static>true</static><pose>229.3 205.8 40.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>13 13 81</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>13 13 81</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b118"><static>true</static><pose>115.4 310.0 27.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>22 25 54</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>22 25 54</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b119"><static>true</static><pose>346.2 78.7 29.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 32 60</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 32 60</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+      <model name="b120"><static>true</static><pose>-108.7 -278.0 12.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>30 26 24</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>30 26 24</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b121"><static>true</static><pose>223.2 -26.4 9.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 31 19</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 31 19</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b122"><static>true</static><pose>86.5 -203.5 11.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>23 17 23</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>23 17 23</size></box></geometry>
+            <material><ambient>0.40 0.42 0.52 1</ambient><diffuse>0.40 0.42 0.52 1</diffuse><specular>0.50 0.52 0.56 1</specular></material></visual>
+        </link></model>
+      <model name="b123"><static>true</static><pose>300.0 -301.7 15.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>17 17 30</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>17 17 30</size></box></geometry>
+            <material><ambient>0.46 0.50 0.62 1</ambient><diffuse>0.46 0.50 0.62 1</diffuse><specular>0.48 0.50 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b124"><static>true</static><pose>-36.0 170.3 17.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>14 22 34</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>14 22 34</size></box></geometry>
+            <material><ambient>0.70 0.64 0.52 1</ambient><diffuse>0.70 0.64 0.52 1</diffuse><specular>0.13 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b125"><static>true</static><pose>136.1 -104.5 25.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>29 11 52</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>29 11 52</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b126"><static>true</static><pose>-230.0 104.1 41.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>19 26 83</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>19 26 83</size></box></geometry>
+            <material><ambient>0.70 0.64 0.52 1</ambient><diffuse>0.70 0.64 0.52 1</diffuse><specular>0.13 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b127"><static>true</static><pose>137.8 59.4 35.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 22 72</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 22 72</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b128"><static>true</static><pose>277.2 25.7 16.7 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>16 19 33</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>16 19 33</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b129"><static>true</static><pose>166.7 -19.2 31.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 17 63</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 17 63</size></box></geometry>
+            <material><ambient>0.46 0.50 0.62 1</ambient><diffuse>0.46 0.50 0.62 1</diffuse><specular>0.48 0.50 0.55 1</specular></material></visual>
+        </link></model>
+      <model name="b130"><static>true</static><pose>-324.5 120.1 29.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 24 59</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 24 59</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b131"><static>true</static><pose>-198.4 150.9 26.3 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 13 53</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 13 53</size></box></geometry>
+            <material><ambient>0.58 0.52 0.45 1</ambient><diffuse>0.58 0.52 0.45 1</diffuse><specular>0.14 0.12 0.10 1</specular></material></visual>
+        </link></model>
+      <model name="b132"><static>true</static><pose>-335.1 -154.6 24.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>24 15 48</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>24 15 48</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b133"><static>true</static><pose>-282.6 -0.3 9.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>29 28 19</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>29 28 19</size></box></geometry>
+            <material><ambient>0.70 0.64 0.52 1</ambient><diffuse>0.70 0.64 0.52 1</diffuse><specular>0.13 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b134"><static>true</static><pose>132.4 -47.8 36.8 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>10 23 74</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>10 23 74</size></box></geometry>
+            <material><ambient>0.50 0.55 0.62 1</ambient><diffuse>0.50 0.55 0.62 1</diffuse><specular>0.45 0.48 0.52 1</specular></material></visual>
+        </link></model>
+      <model name="b135"><static>true</static><pose>-302.9 54.4 36.1 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 33 72</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 33 72</size></box></geometry>
+            <material><ambient>0.78 0.68 0.52 1</ambient><diffuse>0.78 0.68 0.52 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b136"><static>true</static><pose>-149.5 22.4 11.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 21 23</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 21 23</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b137"><static>true</static><pose>282.4 -26.3 43.7 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 13 87</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 13 87</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b138"><static>true</static><pose>-36.7 -198.1 21.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 29 44</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 29 44</size></box></geometry>
+            <material><ambient>0.58 0.52 0.45 1</ambient><diffuse>0.58 0.52 0.45 1</diffuse><specular>0.14 0.12 0.10 1</specular></material></visual>
+        </link></model>
+      <model name="b139"><static>true</static><pose>50.0 54.1 23.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>16 16 47</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>16 16 47</size></box></geometry>
+            <material><ambient>0.72 0.65 0.52 1</ambient><diffuse>0.72 0.65 0.52 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b140"><static>true</static><pose>-328.9 -48.3 27.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 19 55</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 19 55</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b141"><static>true</static><pose>-176.5 238.6 40.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>18 27 82</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>18 27 82</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b142"><static>true</static><pose>-252.6 -199.0 40.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>32 24 80</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>32 24 80</size></box></geometry>
+            <material><ambient>0.28 0.30 0.40 1</ambient><diffuse>0.28 0.30 0.40 1</diffuse><specular>0.62 0.64 0.68 1</specular></material></visual>
+        </link></model>
+      <model name="b143"><static>true</static><pose>-167.9 -148.5 23.6 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>19 17 47</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>19 17 47</size></box></geometry>
+            <material><ambient>0.55 0.52 0.48 1</ambient><diffuse>0.55 0.52 0.48 1</diffuse><specular>0.18 0.18 0.16 1</specular></material></visual>
+        </link></model>
+      <model name="b144"><static>true</static><pose>-76.5 340.3 8.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>28 16 17</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>28 16 17</size></box></geometry>
+            <material><ambient>0.30 0.33 0.42 1</ambient><diffuse>0.30 0.33 0.42 1</diffuse><specular>0.60 0.62 0.65 1</specular></material></visual>
+        </link></model>
+      <model name="b145"><static>true</static><pose>130.0 141.8 12.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>20 31 24</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>20 31 24</size></box></geometry>
+            <material><ambient>0.33 0.36 0.44 1</ambient><diffuse>0.33 0.36 0.44 1</diffuse><specular>0.55 0.58 0.62 1</specular></material></visual>
+        </link></model>
+      <model name="b146"><static>true</static><pose>-199.0 348.6 35.9 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>15 15 72</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>15 15 72</size></box></geometry>
+            <material><ambient>0.62 0.52 0.40 1</ambient><diffuse>0.62 0.52 0.40 1</diffuse><specular>0.12 0.10 0.08 1</specular></material></visual>
+        </link></model>
+      <model name="b147"><static>true</static><pose>242.5 264.1 38.7 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>35 13 77</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>35 13 77</size></box></geometry>
+            <material><ambient>0.75 0.70 0.58 1</ambient><diffuse>0.75 0.70 0.58 1</diffuse><specular>0.12 0.11 0.09 1</specular></material></visual>
+        </link></model>
+      <model name="b148"><static>true</static><pose>-133.6 -349.9 23.5 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>12 10 47</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>12 10 47</size></box></geometry>
+            <material><ambient>0.65 0.58 0.45 1</ambient><diffuse>0.65 0.58 0.45 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b149"><static>true</static><pose>119.1 201.5 45.0 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>10 17 90</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>10 17 90</size></box></geometry>
+            <material><ambient>0.78 0.68 0.52 1</ambient><diffuse>0.78 0.68 0.52 1</diffuse><specular>0.10 0.09 0.07 1</specular></material></visual>
+        </link></model>
+      <model name="b150"><static>true</static><pose>-73.9 -327.5 33.4 0 0 0</pose>
+        <link name="link">
+          <collision name="c"><geometry><box><size>27 18 67</size></box></geometry></collision>
+          <visual name="v"><geometry><box><size>27 18 67</size></box></geometry>
+            <material><ambient>0.38 0.40 0.50 1</ambient><diffuse>0.38 0.40 0.50 1</diffuse><specular>0.52 0.54 0.58 1</specular></material></visual>
+        </link></model>
+
+  </model>
+</sdf>

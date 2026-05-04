@@ -1,0 +1,24 @@
+{
+  "buildings": [
+    {
+      "name": "Storage A",
+      "position": [30, 140]
+    },
+    {
+      "name": "Storage B",
+      "position": [-100, 120]
+    },
+    {
+      "name": "Storage C",
+      "position": [140, -80]
+    },
+    {
+      "name": "Storage D",
+      "position": [-150, -120]
+    },
+    {
+      "name": "Storage E",
+      "position": [-40, 200]
+    }
+  ]
+}

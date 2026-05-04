@@ -1,0 +1,23 @@
+Terminal 1
+cd ~/PX4-Autopilot && bash scripts/launch_city.sh
+
+Terminal 2
+source /opt/ros/jazzy/setup.bash && source ~/ros2_ws/install/setup.bash && cd ~/PX4-Autopilot && python3 scripts/drone_dashboard.py
+
+Kill
+pkill -9 px4; pkill -9 -f 'gz sim'; pkill -9 MicroXRCEAgent; rm -rf /tmp/px4*
+
+
+PX4 speed parameters (in 4001_gz_x500):
+Takeoff speed: 3 → 5 m/s
+Max ascent: 4 → 6 m/s
+Max descent: 1 → 3 m/s
+Landing speed: 0.5 → 1.5 m/s
+Takeoff ramp: 0.5s → 0.3s
+Dashboard state machine timers (in the script):
+
+Warmup: 3s → 1s
+Hover settle: 5s → 2s (timeout 10s → 4s)
+Descent settle: 3s → 1.5s (timeout 8s → 4s)
+Descent position tolerance: 0.3m → 0.5m
+

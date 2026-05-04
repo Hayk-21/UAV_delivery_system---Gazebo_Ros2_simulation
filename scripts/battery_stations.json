@@ -1,0 +1,36 @@
+{
+  "stations": [
+    {
+      "name": "BRS Alpha",
+      "position": [0, 150]
+    },
+    {
+      "name": "BRS Bravo",
+      "position": [-130, -30]
+    },
+    {
+      "name": "BRS Charlie",
+      "position": [160, -130]
+    },
+    {
+      "name": "BRS Delta",
+      "position": [-60, 250]
+    },
+    {
+      "name": "BRS Echo",
+      "position": [250, 100]
+    },
+    {
+      "name": "BRS Foxtrot",
+      "position": [-250, -150]
+    },
+    {
+      "name": "BRS Golf",
+      "position": [100, 250]
+    },
+    {
+      "name": "BRS Hotel",
+      "position": [-200, 180]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "zones": [
+    {
+      "type": "circle",
+      "name": "Helipad restriction",
+      "center": [100, 80],
+      "diameter": 100
+    },
+    {
+      "type": "circle",
+      "name": "Radio tower",
+      "center": [-120, -150],
+      "diameter": 60
+    },
+    {
+      "type": "rectangle",
+      "name": "Park area",
+      "corners": [[-80, -80], [30, -80], [30, -40], [-80, -40]]
+    },
+    {
+      "type": "rectangle",
+      "name": "Military zone",
+      "corners": [[150, 150], [250, 150], [250, 250], [150, 250]]
+    }
+  ]
+}
