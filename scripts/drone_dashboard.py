@@ -183,7 +183,7 @@ def _build_obstacles(buildings, zones, storage=None, margin=SAFETY_RADIUS):
 
     n_building_polys = len(polygons)
 
-    # No-fly zones
+    # No-fly zones !
     for z in zones:
         if z['type'] == 'rectangle':
             c_list = z['corners']  # [East, North]
